@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bgSoft);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.topBar,
+.mainContent,
+.bottomBar {
+  padding: 20px;
+  margin: 5px 0;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #5d57c9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--text);
+}

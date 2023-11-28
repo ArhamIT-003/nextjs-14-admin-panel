@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userImg {
+  border-radius: 50%;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+.view {
+  background-color: teal;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.delete {
+  background-color: crimson;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: var(--text);
+  cursor: pointer;
+}
